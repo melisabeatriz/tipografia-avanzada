@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+button {
+  border: 0;
+  background: none;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Open Sans", sans-serif;
+}
+
+sup {
+  position: relative;
+  top: -0.3em;
+  font-size: 0.7em;
+  line-height: 0;
+}
+
+.ejercicio-1 {
+  background: #c6c6c6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.phone-screen {
+  background: #fdfbf7;
+  width: 390px;
+  padding: 1rem;
+  height: 844px;
+  overflow: scroll;
+}
+
+.phone-screen p {
+  font-size: 1rem;
+  hyphens: auto;
+  overflow-wrap: break-word;
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+.phone-screen .quote {
+  font-size: 0.9rem;
+  padding: 1rem 0 1rem 2.5rem;
+  line-height: 175%;
+}
+
+.phone-screen h5 {
+  font-size: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
+  color: #000086;
+}
+
+.phone-screen h4 {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 300;
+}
+.phone-screen h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.phone-screen h2 {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.title {
+  color: #000086;
+  margin-bottom: 2rem;
+  padding-top: 1rem;
+  border-top: 2px solid #000086;
+}
+.footnotes {
+  padding: 1rem;
+  color: #696969;
+}
+
+.footnotes p,
+.footnotes li {
+  font-size: 0.8rem;
+}
+.footnotes li {
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 500px) {
+  .phone-screen {
+    width: 100%;
+    height: 100vh;
+  }
+}
