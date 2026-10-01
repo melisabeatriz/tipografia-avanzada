@@ -126,6 +126,8 @@ sup {
   border-top: 2px solid #000086;
 }
 .footnotes {
+  border-top: 1px solid #696969;
+  margin-top: 2rem;
   padding: 1rem;
   color: #696969;
 }
