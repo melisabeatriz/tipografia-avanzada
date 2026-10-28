@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "Looklyn";
+  src: url("fonts/LooklynTrial-Black.otf") format("opentype");
+  font-weight: 900;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #bfbfbf;
+}
+
+.estilo-a {
+  /* background: pink; */
+  font-family: "Looklyn", serif;
+  font-weight: 900;
+}
+
+.estilo-b {
+  /* background: red; */
+}
+
+html {
+  font-size: 16px;
+}
+body {
+  margin: 0;
+  font-family: serif;
+  line-height: 1.5;
+}
+main {
+  max-width: 46rem;
+  margin: 0 auto;
+  padding: 2rem 1.25rem;
+}
+h1 {
+  font-size: 2.5rem;
+  line-height: 1.15;
+  margin: 0 0 1.5rem;
+  color: red;
+}
+.byline,
+.date {
+  font-size: 0.875rem;
+  margin: 0.25rem 0;
+}
+.bajada {
+  font-size: 1.25rem;
+  line-height: 1.4;
+  margin: 1.5rem 0 2rem;
+}
+article p {
+  font-size: 1rem;
+  margin: 0 0 1.25rem;
+}
+figure {
+  margin: 2rem 0;
+}
+figure img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+figcaption {
+  font-size: 0.875rem;
+  line-height: 1.4;
+  margin-top: 0.5rem;
+}
+a {
+  color: #000;
+}
+
+a:hover {
+  color: red;
+}
