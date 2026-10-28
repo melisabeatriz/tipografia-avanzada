@@ -12,13 +12,14 @@
 }
 
 .estilo-a {
-  /* background: pink; */
   font-family: "Looklyn", serif;
   font-weight: 900;
 }
 
 .estilo-b {
-  /* background: red; */
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 html {
